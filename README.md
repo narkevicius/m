@@ -1,11 +1,23 @@
-# M?
+# Vatcher
+
+## Description
 
 Super simple variable watcher for rails apps. Just type:
 
 ```ruby
-M? interesting_variable_to_watch, another_one
+vatch! interesting_variable_to_watch, another_one, and_another, and_so_on
 ```
 
-anywhere in your app and you will get entry with timestamp and location of caller in your freshly made `log/m.log` file.
+anywhere in your app and you will get entry with timestamp and location of your call in `log/vatcher.log` made for you.
 
-Why `M?`? Because it types fast and shouldn't have any namespace collision.
+## Instalation
+
+Add it to `Gemfile` of you Rails app:
+
+```ruby
+group :development, :test do
+  gem 'vatcher'
+end
+```
+
+and run `bundle`.
