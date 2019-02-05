@@ -1,10 +1,3 @@
-# require "m/version"
-
-# module M
-#   class Error < StandardError; end
-#   # Your code goes here...
-# end
-
 Object.class_eval do
 
   def M?(*args)
