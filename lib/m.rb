@@ -8,6 +8,9 @@ Object.class_eval do
       file.puts info_str
       file.puts args
     end
+
+  rescue
+    "No variable logging possible here"
   end
 
 end
