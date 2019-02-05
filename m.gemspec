@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Vytautas Narkevicius"]
   spec.email         = ["narkevicius.vytautas@gmail.com"]
 
-  spec.summary       = %q{Super simple variable watcher for rails apps}
+  spec.summary       = "Super simple variable watcher for rails apps"
   spec.homepage      = "https://github.com/narkevicius/m"
   spec.license       = "MIT"
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/narkevicius/m"
-    spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
